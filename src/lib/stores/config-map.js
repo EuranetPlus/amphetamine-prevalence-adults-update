@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 export const mapConfig = writable({
-  "title": "Prevalence of amphetamine use in Europe",
-  "subtitle": "Share of adults (15-64) using amphetamines in the European Union in 2024 (or most recent year)",
+  "title": "Prevalence of amphetamines in the EU population",
+  "subtitle": "Share of amphetamine use in the European Union in 2024 among the European population aged 15 to 64 (or most recent data available)",
   "colourSchemeClasses": 5,
   "data": "country,id,value,extraInfo,text_content,link_text,link_url_target,audio_url_1,audio_url_2,audio_url_3,image_url_source,image_url_target,video_url\nAustria,AT,0.009,true,Survey year 2022,,,,,,,,\nBelgium,BE,0.005,true,Survey year 2018,,,,,,,,\nBulgaria,BG,0.007,true,Survey year 2020,,,,,,,,\nCyprus,CY,0.005,true,Survey year 2022,,,,,,,,\nCzechia,CZ,0.007,true,Survey year 2023,,,,,,,,\nGermany,DE,0.014,true,Survey year 2021,,,,,,,,\nDenmark,DK,0.006,true,Survey year 2023,,,,,,,,\nEstonia,EE,0.018,true,Survey year 2023,,,,,,,,\nSpain,ES,0.006,false,,,,,,,,,\nFinland,FI,0.023,true,Survey year 2022,,,,,,,,\nFrance,FR,0.006,true,Survey year 2023,,,,,,,,\nCroatia,HR,0.018,true,Survey year 2019,,,,,,,,\nHungary,HU,0.004,true,Survey year 2019,,,,,,,,\nIreland,IE,0.01,true,Survey year 2019,,,,,,,,\nItaly,IT,0.007,true,Survey year 2022,,,,,,,,\nLithuania,LT,0.002,true,Survey year 2021,,,,,,,,\nLuxembourg,LU,0.001,true,Survey year 2019,,,,,,,,\nLatvia,LV,0.006,true,Survey year 2020,,,,,,,,\nNetherlands,NL,0.017,true,Survey year 2023,,,,,,,,\nPoland,PL,0.007,FALSE,,,,,,,,,\nPortugal,PT,0.000,true,Survey year 2016,,,,,,,,\nRomania,RO,0.001,true,Survey year 2016,,,,,,,,\nSweden,SE,0.007,true,Survey year 2021,,,,,,,,\nSlovenia,SI,0.005,true,Survey year 2023,,,,,,,,\nSlovakia,SK,0.001,true,Survey year 2023,,,,,,,,",
   "parsedData": [
